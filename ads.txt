@@ -1,4 +1,1 @@
-# Replace pub-0000000000000000 with your real AdSense publisher ID.
-# You'll find the exact line to use in AdSense under
-# Sites > blogpaste.online > "View ads.txt".
-google.com, pub-0000000000000000, DIRECT, f08c47fec0942fa0
+google.com, pub-3309273645696464, DIRECT, f08c47fec0942fa0
