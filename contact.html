@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Contact — blogpaste</title>
+<meta name="description" content="Get in touch with blogpaste — send a message about a post, a correction, or anything else.">
+<link rel="canonical" href="https://blogpaste.online/contact.html">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:wght@600;900&family=Source+Sans+3:wght@400;600&family=IBM+Plex+Mono:wght@400;500&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<header class="site-header">
+  <div class="wrap">
+    <a class="stamp" href="/">
+      <span class="mark">blogpaste</span>
+      <span class="tag">est. 2026</span>
+    </a>
+    <nav class="site-nav" aria-label="Primary">
+      <a href="/">Home</a>
+      <a href="about.html">About</a>
+      <a href="contact.html" aria-current="page">Contact</a>
+      <a href="privacy-policy.html">Privacy</a>
+    </nav>
+  </div>
+</header>
+
+<main>
+  <section class="page-sheet">
+    <h1>Get in touch</h1>
+    <p>Spotted a mistake, want to say hello, or have a question about a post? Send a message below, or email
+      <a href="mailto:hello@blogpaste.online">hello@blogpaste.online</a> directly.</p>
+
+    <!--
+      This is a static site with no server, so the form needs a
+      third-party endpoint to actually deliver messages. Sign up
+      for a free plan at https://formspree.io, create a form, and
+      replace YOUR_FORM_ID below with the ID they give you.
+      Until then this form will not send anywhere.
+    -->
+    <form class="contact-form" action="https://formspree.io/f/YOUR_FORM_ID" method="POST">
+      <div>
+        <label for="name">Name</label>
+        <input type="text" id="name" name="name" required>
+      </div>
+      <div>
+        <label for="email">Email</label>
+        <input type="email" id="email" name="email" required>
+      </div>
+      <div>
+        <label for="message">Message</label>
+        <textarea id="message" name="message" rows="6" required></textarea>
+      </div>
+      <button type="submit">Send message</button>
+      <p class="form-note">Replace YOUR_FORM_ID in contact.html with a real Formspree (or similar) form ID before this goes live — see README.md.</p>
+    </form>
+  </section>
+</main>
+
+<footer class="site-footer">
+  <div class="wrap">
+    <span>© <span id="year">2026</span> blogpaste.online</span>
+    <span><a href="about.html">About</a> · <a href="contact.html">Contact</a> · <a href="privacy-policy.html">Privacy</a></span>
+  </div>
+</footer>
+
+<button id="back-to-top" aria-label="Back to top">↑</button>
+<script src="js/script.js"></script>
+</body>
+</html>

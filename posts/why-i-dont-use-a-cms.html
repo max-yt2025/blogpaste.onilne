@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Why This Blog Doesn't Use a CMS — blogpaste</title>
+<meta name="description" content="No database, no admin panel, no login screen — just plain HTML files. Here's why a static site turned out to be the right amount of tool.">
+<link rel="canonical" href="https://blogpaste.online/posts/why-i-dont-use-a-cms.html">
+<meta property="og:type" content="article">
+<meta property="og:title" content="Why This Blog Doesn't Use a CMS">
+<meta property="og:description" content="No database, no admin panel, no login screen — why a static site turned out to be the right amount of tool.">
+<meta property="og:url" content="https://blogpaste.online/posts/why-i-dont-use-a-cms.html">
+<meta name="twitter:card" content="summary">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:wght@600;900&family=Source+Sans+3:wght@400;600&family=IBM+Plex+Mono:wght@400;500&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="../css/style.css">
+</head>
+<body>
+<header class="site-header">
+  <div class="wrap">
+    <a class="stamp" href="/"><span class="mark">blogpaste</span><span class="tag">est. 2026</span></a>
+    <nav class="site-nav" aria-label="Primary">
+      <a href="/">Home</a><a href="../about.html">About</a><a href="../contact.html">Contact</a><a href="../privacy-policy.html">Privacy</a>
+    </nav>
+  </div>
+</header>
+<main>
+  <article class="sheet">
+    <span class="tape">Notes</span>
+    <h1>Why This Blog Doesn't Use a CMS</h1>
+    <div class="byline">April 18, 2026 · 4 min read</div>
+
+    <p>This entire site is plain HTML, CSS, and a small amount of JavaScript. No database, no admin dashboard, no login page, no plugin updates to worry about at two in the morning. To publish a post, I copy a file, write in it, and add a link to it. That's the whole publishing pipeline.</p>
+
+    <h2>What a CMS actually costs</h2>
+
+    <p>A content management system solves real problems — multiple authors, scheduled publishing, a non-technical editor who needs a friendly interface. None of those problems exist here. What a CMS would add, for a one-person blog like this, is a server to maintain, a login to secure, and a whole extra piece of software that could break independently of anything I actually wrote.</p>
+
+    <p>A static file can't be hacked through a plugin vulnerability. It can't go down because a database ran out of disk space. It either loads, or the entire internet is down.</p>
+
+    <blockquote>A static file can't be hacked through a plugin vulnerability, and it can't go down because a database filled up.</blockquote>
+
+    <h2>What it costs the other way</h2>
+
+    <p>The honest tradeoff is that adding a post means opening a text editor instead of clicking "New Post" in a friendly dashboard, and there's no rich-text button for bold or italics — it's an actual HTML tag, typed by hand. For one person publishing a few essays a month, that's a trivial cost. It would stop being trivial the moment several people needed to publish here, or the moment posts needed scheduling, comments, or a search feature more advanced than filtering the homepage.</p>
+
+    <h2>The actual filter</h2>
+
+    <p>The question that decided it wasn't "which tool is more powerful," it was "what does this specific site actually need." A single-author blog that just needs to display finished essays doesn't need a content management system. It needs content, and a place to put it.</p>
+  </article>
+  <div class="ad-slot"><div class="ad-label">Advertisement</div></div>
+  <div class="wrap"><a class="back-link" href="/">← Back to all posts</a></div>
+</main>
+<footer class="site-footer">
+  <div class="wrap">
+    <span>© <span id="year">2026</span> blogpaste.online</span>
+    <span><a href="../about.html">About</a> · <a href="../contact.html">Contact</a> · <a href="../privacy-policy.html">Privacy</a></span>
+  </div>
+</footer>
+<button id="back-to-top" aria-label="Back to top">↑</button>
+<script src="../js/script.js"></script>
+</body>
+</html>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+  <url><loc>https://blogpaste.online/</loc><changefreq>weekly</changefreq><priority>1.0</priority></url>
+  <url><loc>https://blogpaste.online/about.html</loc><changefreq>monthly</changefreq><priority>0.5</priority></url>
+  <url><loc>https://blogpaste.online/contact.html</loc><changefreq>monthly</changefreq><priority>0.3</priority></url>
+  <url><loc>https://blogpaste.online/privacy-policy.html</loc><changefreq>yearly</changefreq><priority>0.2</priority></url>
+  <url><loc>https://blogpaste.online/posts/pasting-my-thoughts.html</loc><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://blogpaste.online/posts/rough-draft.html</loc><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://blogpaste.online/posts/daily-writing-habit.html</loc><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://blogpaste.online/posts/morning-pages.html</loc><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://blogpaste.online/posts/finding-your-voice.html</loc><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://blogpaste.online/posts/procrastination-and-writing.html</loc><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://blogpaste.online/posts/note-taking-systems.html</loc><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://blogpaste.online/posts/editing-is-not-writing.html</loc><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://blogpaste.online/posts/why-i-dont-use-a-cms.html</loc><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://blogpaste.online/posts/reading-like-a-writer.html</loc><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://blogpaste.online/posts/the-perfect-notebook-doesnt-exist.html</loc><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://blogpaste.online/posts/writing-when-you-have-nothing-to-say.html</loc><changefreq>monthly</changefreq><priority>0.8</priority></url>
+</urlset>
